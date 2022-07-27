@@ -1,12 +1,5 @@
-.header{
-    background-color: blueviolet;
-    height: 150px;
-}
-.cuerpo{
-    background-color: red;
-    height: 500px;
-}
-.foot{
-    background-color: forestgreen;
-    height: 150px;
+
+h3{
+    text-decoration: underline;
+    font-weight: bold;
 }
