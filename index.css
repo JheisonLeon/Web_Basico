@@ -48,3 +48,17 @@ a{
 .lista-nemiums{
     list-style: none;
 }
+
+.bloque{
+    display: flex;
+    margin-top: 60px;
+    
+}
+
+.menu{
+    /*margin: 0px 0px 0px 250px;*/
+}
+
+.container{
+
+}
