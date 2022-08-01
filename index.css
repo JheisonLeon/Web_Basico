@@ -1,4 +1,7 @@
-
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
 .titulos, .titulo_formulario {
     text-decoration: underline;
     font-weight: bold;
@@ -32,12 +35,19 @@ body{
 
 .seleccionado{
     background-color: black;
-    color:white;
+    color:white !important;
+    text-decoration: none !important;
+    padding: 8px  !important;
 }
 
 a{
-    text-decoration: none;
-    color: #808080;
+    text-decoration: none !important;
+    color: #808080 !important;
+}
+#nem{
+    text-decoration: none !important;
+    color: black !important;
+    padding: 8px  !important;
 }
 
 .email{
@@ -46,5 +56,23 @@ a{
 }
 
 .lista-nemiums{
-    list-style: none;
+    list-style: none !important;
+}
+li{
+    text-decoration: none;
+}
+
+.container{
+  margin-top: 64px;
+}
+
+
+h1{
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal !important;
+    font-weight: normal!important;
+    font-size: 60px  !important;
+    line-height: 70px !important;
+    color: black !important;
 }
