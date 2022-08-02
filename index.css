@@ -1,9 +1,13 @@
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 .titulos, .titulo_formulario {
     text-decoration: underline;
     font-weight: bold;
 }
 
+*{
+    font-family: Roboto;
+}
 
 .titulo_footer{
     font-size: 32px;
@@ -30,14 +34,10 @@ body{
     margin: 0px;
 }
 
-.seleccionado{
-    background-color: black;
-    color:white;
-}
 
 a{
     text-decoration: none;
-    color: #808080;
+    color: #616161;
 }
 
 .email{
@@ -45,20 +45,61 @@ a{
     color: black;
 }
 
-.lista-nemiums{
-    list-style: none;
+
+.seleccionado{
+    background-color: black;
+    color:white  !important;
 }
 
 .bloque{
-    display: flex;
-    margin-top: 60px;
-    
-}
-
-.menu{
-    /*margin: 0px 0px 0px 250px;*/
+    display: flex; 
+    width: 100%;
+    margin: 64px auto 0px auto;
+    max-width: 1024px; 
 }
 
 .container{
-
+    width: 100%;
 }
+
+.menu{
+    /*width: 240px;
+    background-color:purple;*/
+    margin-right: 50px;
+}
+
+.aside-title{
+    font-size: 14px;
+    font-style: normal;
+    margin:14px 0px;
+    color:#616161;
+    line-height: 24px;  
+}
+
+.lista-nemiums{
+    list-style: none;
+    padding: 0px;
+}
+
+#Enlace_nemium {
+  display: block;
+  color: #808080;
+  border-radius: 4px;
+  padding: 8px;
+  line-height: 24px;
+}
+ #Enlace_contenido:hover{
+    text-decoration: underline;
+ }
+
+
+.dropdown {
+    margin-top: 24px;
+  }
+
+
+summary {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: bold;
+  }
