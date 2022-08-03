@@ -1,14 +1,25 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
-.titulos, .titulo_formulario {
-    text-decoration: underline;
-    font-weight: bold;
-}
+
 
 *{
     font-family: Roboto;
+    font-size: 16px;
 }
 
+.titulos, .titulo_formulario {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    width: max-content;
+}
+
+.titulos::after, .titulo_formulario::after {
+    display: block;
+    height: 4px;
+    background: black;
+    content: "";
+}
 .titulo_footer{
     font-size: 32px;
 }
@@ -35,11 +46,6 @@ body{
 }
 
 
-a{
-    text-decoration: none;
-    color: #616161;
-}
-
 .email{
     text-decoration: underline;
     color: black;
@@ -63,12 +69,11 @@ a{
 }
 
 .menu{
-    /*width: 240px;
-    background-color:purple;*/
-    margin-right: 50px;
+    width: 240px;
+    margin-right: 45px;
 }
 
-.aside-title{
+.aside-title, .titulo-dropdown{
     font-size: 14px;
     font-style: normal;
     margin:14px 0px;
@@ -87,6 +92,14 @@ a{
   border-radius: 4px;
   padding: 8px;
   line-height: 24px;
+  font-size: 14px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+#Enlace_contenido{
+    text-decoration: none;
+    color: #616161;
 }
  #Enlace_contenido:hover{
     text-decoration: underline;
@@ -102,4 +115,47 @@ summary {
     font-size: 14px;
     line-height: 24px;
     font-weight: bold;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: normal;
+    line-height: 70px;
+    margin: 0px;
+}
+
+p {
+    line-height: 24px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 37px;
+}
+
+blockquote {
+    margin: 0;
+    padding-left: 20px;
+    border-left: 4px solid black;
+    color: #424242;
   }
+
+.Frase, .Frase2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  pre {
+    background-color: #fec62e;
+  }
+
+
+h3{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+#img-DOM, #img-CSS{
+    width: 100%;
+}
